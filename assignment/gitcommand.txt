@@ -1,0 +1,33 @@
+Initialized empty Git repository in /.git/
+$ git init
+for git status
+$ git status
+I created a file called octocat.txt in the octobox repository for you (as you can see in the browser below).
+$ git status
+submit a commit.
+$ git commit -m "add cute octocat story"
+For git history
+$ git log
+Pushing Remotely 
+$ git push -u origin master
+Pulling Remotely 
+$ git pull origin master
+Staged Differences for add single file
+$ git add octofamily/octodog.txt
+Resetting the Stage
+$ git reset octofamily/octodog.txt
+Undo
+Branching Out
+$ git branch clean_up
+Switching Branches
+$ git checkout clean_up
+Removing All The Things
+$ git rm '*.txt'
+Commiting Branch Changes
+$ git commit -m "remove all the cats"
+Preparing to Merge
+$ git merge clean_up
+Keeping Things Clean
+$ git branch -d clean_up
+The Final Push
+$ git push

@@ -1,0 +1,67 @@
+body{
+    padding:20px;
+    margin:0;
+}
+p{
+    margin:0;
+    padding-bottom: 5px;
+}
+h1{
+    margin:0;
+    padding-bottom:10px;
+}
+h2{font-weight: normal}
+.formcontent{
+    padding:0;
+    margin:0;
+    background-color:#FEFEE6;
+}
+.formcontent form{overflow:hidden; }
+.formcontent .leftcont{
+    padding:0 15px;
+    width:45%;
+    float:left;
+    box-sizing: border-box;
+}
+.formcontent .rightcont{
+    padding:0 15px;
+    width:40%;
+    float:right;
+    box-sizing: border-box;
+}
+
+.twoinput{
+    overflow: hidden;
+    margin:0 -15px;
+}
+.oneinput,
+.twoinput{
+    padding-bottom: 10px;
+}
+.twoinput .inputgrp{
+    width:50%;
+    padding:0 15px;
+    float:left;
+    box-sizing: border-box;
+}
+.inputgrp input[type="text"],
+.inputgrp select{
+    width:100%;
+    padding:4px;
+    font-size:16px;
+    line-height:20px;
+    border:1px solid #B8B8B8;
+    border-radius:4px;
+    box-shadow: 0 0 2px 0 #e0e0e0 inset;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+

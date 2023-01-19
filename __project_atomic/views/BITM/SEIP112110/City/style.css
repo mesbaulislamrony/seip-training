@@ -1,0 +1,29 @@
+@charset "utf-8";
+/**
+ * @Md. Mesbaul Islam
+ * @UI Developer
+ * @DATE: 2016-march-08
+ * @packet version - v1.0
+ */
+body{
+	text-transform: capitalize;
+}
+/*------------------------------*/
+/*------  Common styles   ------*/
+/*------------------------------*/
+a{text-decoration:none; outline:none;}
+a:hover{text-decoration:none}
+p{padding:0; margin:0}
+ul{padding:0; margin:0; list-style:none;}
+*{outline:none}
+img,button,.text,.submit,
+.textarea{margin:0;outline:none;border:none;background:none}
+header,nav,section,footer{display:block}
+h1,h2,h3,h4,h5,h6{padding:0; margin:0;}
+img{border:none;outline:0}
+.container{
+	max-width: 640px;
+}
+.footer{
+	margin-top: 50px;
+}

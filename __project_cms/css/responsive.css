@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+/*==============================*/
+/*=====   Responsive css  =====*/
+/*============================*/
+
+/*-----------------    max-width 1300px  -----------*/
+@media(max-width: 1300px){
+
+}
+
+
+/*-----------------    max-width 1200px of BootStrap 1st Break  -----------*/
+@media(max-width: 1199px){
+
+}
+
+/*-----------------    max-width 1024px   -----------*/
+@media(max-width: 1024px){
+
+}
+
+/*-----------------    max-width 992px of BootStrap 2nd Break  -----------*/
+@media(max-width: 992px){
+
+}
+
+/*-----------------    max-width 767px of BootStrap 3rd Break  -----------*/
+@media(max-width: 767px){
+
+}
+
+/*-----------------    max-width 639px   -----------*/
+@media(max-width: 639px){
+
+}
+
+/*-----------------    max-width 479px   -----------*/
+@media(max-width: 479px){
+
+}
+
+/*-----------------    max-width 359px   -----------*/
+@media(max-width: 359px){
+
+}
+
+/*-----------------    max-width 320px   -----------*/
+@media(max-width: 320px){
+
+}

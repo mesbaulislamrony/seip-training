@@ -1,0 +1,15 @@
+@charset"utf-8";
+
+/*
+ font-family: 'font-family';
+ */
+
+@font-face {
+    font-family: 'font-family';
+    src: url('folder/font-name.eot');
+    src: url('folder/font-name.eot') format('embedded-opentype'),
+         url('folder/font-name.woff2') format('woff2'),
+         url('folder/font-name.woff') format('woff'),
+         url('folder/font-name.ttf') format('truetype'),
+         url('folder/font-name#font-name') format('svg');
+}

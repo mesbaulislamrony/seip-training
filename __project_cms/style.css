@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
+/*===== Date:2016-april-19 ==========*/
+/*===== Mesbaul Islam ============*/
+
+/*
+Theme Name: Own-cms
+Theme URI: N/A
+Author: Md. Md. Mesbaul Islam
+*/
+body{
+	padding-top:50px;
+	margin:0;
+	color:#333;
+	font-size:15px;
+	line-height:1.4em;
+	text-align:left;
+	background-color:#e3e3e3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+*{outline:none}
+a,a:hover,a:focus{outline: none; outline-offset: 0;text-decoration:none}
+img,button,input,textarea,a{
+	margin:0;
+	outline:none;
+	border:none;
+	background:none
+}
+img{max-width: 100%; vertical-align: top;}
+.clrfix:after,
+.clrfix:before{
+	content:"";
+	clear:both;
+	display:table;
+	box-sizing:border-box;
+}
+/*=================================*/
+/*=====    Css3 Effects    =======*/
+/*===============================*/
+{
+	-webkit-transition:all .3s;	/* Chrome, Safari, Opera */
+	-ms-transition:all .3s;	/* IE 9 */
+	-moz-transition:all .3s; /* Standard syntax */
+	transition:all .3s;	
+}
+
+a,a:hover{
+	-webkit-transition:all .5s;	/* Chrome, Safari, Opera */
+	-ms-transition:all .5s;	/* IE 9 */
+	-moz-transition:all .5s; /* Standard syntax */
+	transition:all .5s;	
+}
+
+{
+	-webkit-transition:all 1s;	/* Chrome, Safari, Opera */
+	-ms-transition:all 1s;	/* IE 9 */
+	-moz-transition:all 1s; /* Standard syntax */
+	transition:all 1s;	
+}
+
+{
+	-webkit-transition:all 2s;	/* Chrome, Safari, Opera */
+	-ms-transition:all 2s;	/* IE 9 */
+	-moz-transition:all 2s; /* Standard syntax */
+	transition:all 2s;	
+}
+
+{
+	-ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+    -moz-transform: scale(1.1); /* Standard syntax */
+    transform: scale(1.1);
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; margin: 0}
+textarea{
+	min-height: 100px;
+	resize:vertical;
+}
+.main-content .container{max-width: 768px}
+.panel-primary .panel-heading a{color: #fff}
+/*-----------------------*/
+/*---- Navbar Style -----*/
+/*-----------------------*/
+.fixed{
+	width:16.6667%;
+	background-color:#23282D;
+	position:fixed;
+	top:50px;
+	bottom:0;
+}
+.navbar{margin:0}
+/*-----------------------*/
+/*-- Sidebar Style --*/
+/*-----------------------*/
+.alerts{
+	padding:5px 15px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-left: 4px solid #46b450;
+}
+.sidebar .list-group{margin-bottom:0}
+.sidebar .toggle .list-group-item a{padding-left: 15px}
+.sidebar .list-group-item{
+	background-color:#23282D;
+	border:none;
+	border-radius:0;
+}
+.sidebar > .list-group-item{display:block; color:#eee; background-color:#333;}
+.sidebar .list-group-item a{display:block; color:#eee}
+.sidebar .list-group-item a:hover{color:#0073aa}
+html,body.login{padding: 0}
+.login-panel{
+	padding: 80px 0;
+}
+.dashboard dl.recent-post dt,
+.dashboard dl.recent-post dd{line-height: 25px}
+.table-panel .panel-heading ul,
+.table-panel .panel-footer ul{margin: 0}
+.table-panel table{margin: 0;}
+.table-panel table tr:last-child td{border-bottom: 1px solid #ddd}
+.table-panel table tr td span{padding-right: 5px}
+.table-panel span.img{
+	width: 50px;
+	float: left;
+}
+body.backend ul.backlist{padding: 0; margin: 0}
+body.backend ul.backlist li{
+	padding: 3px 0;
+	list-style: none;
+}
+body.backend ul.backlist li .checkbox{margin: 0;}
+body.backend .alerts a{
+	padding: 1px 4px;
+	margin-left: 5px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 16px;
+	display: inline-block;
+	border-radius: 3px;
+	background-color: #337ab7;
+}
+/* Code for front end */
+body.front-end .navbar-brand{
+	padding: 0;
+	color: #777;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	line-height: 45px;
+	display: block;
+}
+body.front-end ul.dropdown-menu{padding-left: 0}
+body.front-end{background-color: #fff}
+body.front-end ul{padding-left: 20px}
+body.front-end ul.front-list li{list-style-position: outside;}
+body.front-end ul.front-list li a{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	display: block;
+	border-bottom: 1px solid #eee;
+}
+body.front-end .aboutus h1{
+	padding: 40px 0 20px;
+	font-size: 80px;
+	font-weight: 800;
+}
+body.front-end .aboutus p{margin-bottom: 50px}
+body.front-end .aboutus .member{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 15px;
+	border-radius: 50px;
+	overflow: hidden;
+	border: 1px solid #eee;
+}
+body.front-end .aboutus .member img{
+	width: 100%;
+	display: block;
+}
+.post-content{padding-right: 30px}
+.main-content .post-content .page-header p{
+	margin: 0;
+	font-size: 12px;
+}
+.main-content .post-content .page-header{margin-bottom: 10px}
+.post-content img{
+	width: 100%;
+	display: block;
+}
+footer{ padding: 50px 0 65px }
+
+
+
